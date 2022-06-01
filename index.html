@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caculator</title>
+    
+</head>
+<body>
+    <div class="content">
+      <div class="title">Simple Caculator</div>
+         <div class="input-group">
+             <label for="">Number One :</label>
+             <input type="number" class="user-input" id="fnum" placeholder="Enter First Number" value="">
+             <small class="error"  id="num1Error">First Number is required.</small>
+         </div>
+         <div class="input-group">
+            <label for="">Number Two :</label>
+            <input type="number" class="user-input" id="snum" placeholder="Enter Second Number" value="">
+            <small class="error" id="num2Error">Second Number is required.</small>
+        </div>
+        <div class="input-group">
+            <label for="">Operators :</label>
+            <select  class="user-input" id="operators">
+                <option value="empty">Choose Option</option>
+                <option value="add">+</option>
+                <option value="minus">-</option>
+                <option value="multiply">×</option>
+                <option value="divide">÷</option>
+            </select>
+            <small class="error" id="opetatorError">Please choose an option.</small>
+        </div>
+
+        <div class="btn-group">
+            <button type="button" class="register-btn" id="caculateBtn">Caculate</button>
+        </div>
+
+        <div id="result" ></div>
+    </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
